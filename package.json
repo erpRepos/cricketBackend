@@ -4,7 +4,7 @@
   "description": "Backend server for automated payroll management and generation",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node init && nodemon index.js",
     "test": "nodemon index.js"
   },
   "author": "anupamtechsimians",
@@ -34,7 +34,7 @@
     "winston": "^3.9.0",
     "xlsx": "^0.18.5"
   },
-   "engines": {
+  "engines": {
     "node": ">=14.20.1"
   }
 }
